@@ -44,7 +44,7 @@ public class Main {
             System.out.println("Запретный эликсир.");
             isCount = true;
         }
-        if (isCount == false){
+        if (!isCount){
             System.out.println("Не хватает ингридиентов");
         }
     }
