@@ -9,9 +9,9 @@ public class Main {
         boolean isId = true;
         int i = 0;
         while(isId){
-            if(i==50) {
+            if(i==48) {
                 isId=false;
-                break;
+
             }
 
             System.out.println("Уволен айтишник с id " + (i=i+2));
