@@ -6,16 +6,12 @@ public class Main {
         }
 
         */
-        boolean isId = true;
-        int i = 0;
-        while(isId){
-            if(i==48) {
-                isId=false;
 
-            }
-
-            System.out.println("Уволен айтишник с id " + (i=i+2));
+        int i = 2;
+        while(i<=50){
+            System.out.println("Уволен айтишник с id " + i);
+            i += 2; //i=i+2;
         }
-
+        System.out.println("Уволен");
     }
 }
